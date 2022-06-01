@@ -3596,6 +3596,48 @@ footer .content .socail-media li a img:hover {
   margin: 20px 0px;
 }
 
+.privacy.notification .content .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.privacy.notification .content .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.privacy.notification .content .time img {
+  width: 15px;
+  height: 15px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+  -webkit-filter: invert(14%) sepia(63%) saturate(5962%) hue-rotate(229deg) brightness(90%) contrast(108%);
+          filter: invert(14%) sepia(63%) saturate(5962%) hue-rotate(229deg) brightness(90%) contrast(108%);
+}
+
+.privacy.notification .content .time span {
+  color: #808080;
+  font-size: 13px;
+  font-weight: 500;
+}
+
 .privacy .content {
   width: 100%;
   padding: 20px 15px;
@@ -3603,6 +3645,8 @@ footer .content .socail-media li a img:hover {
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 10px rgba(3, 53, 216, 0.1);
           box-shadow: 0px 0px 10px rgba(3, 53, 216, 0.1);
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
 }
 
 .privacy .content h1 {
@@ -3645,6 +3689,11 @@ footer .content .socail-media li a img:hover {
   top: 0px;
   right: 0px;
   z-index: -1;
+}
+
+.privacy .content:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 .chat-message {
@@ -3943,7 +3992,8 @@ footer .content .socail-media li a img:hover {
     display: none !important;
   }
   .how-use .image-content,
-  header .image-content {
+  header .image-content,
+  .reserve .image-content {
     height: 220px !important;
   }
   header {
@@ -3969,6 +4019,48 @@ footer .content .socail-media li a img:hover {
   }
   .chat-message .send-btn {
     left: 0px !important;
+  }
+  .mobile-hidden,
+  .navbar .content .dropdown .dropdown-toggle span {
+    display: none;
+  }
+  .modal-dialog-centered .modal-body .flex-data,
+  .orders .order-box,
+  .orders .order-box .content .flex-data {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    -ms-flex-line-pack: start !important;
+        align-content: flex-start !important;
+  }
+  .modal-dialog-centered .modal-body .flex-data a, .modal-dialog-centered .modal-body .flex-data span, .modal-dialog-centered .modal-body .flex-data .type,
+  .orders .order-box a,
+  .orders .order-box span,
+  .orders .order-box .type,
+  .orders .order-box .content .flex-data a,
+  .orders .order-box .content .flex-data span,
+  .orders .order-box .content .flex-data .type {
+    margin: 10px 0px 0px !important;
+  }
+  .card .card-header {
+    padding: 10px 0px !important;
+  }
+  .card .card-header .btn {
+    padding: 10px 10px !important;
+  }
+  .card .card-header .btn .title {
+    font-size: 13px !important;
+    text-align: unset !important;
+  }
+  .card p {
+    font-size: 13px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

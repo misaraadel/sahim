@@ -86,7 +86,8 @@
   }
 
   .how-use .image-content,
-  header .image-content {
+  header .image-content,
+  .reserve .image-content {
     height: 220px !important;
   }
 
@@ -118,6 +119,43 @@
 
     .send-btn {
       left: 0px !important;
+    }
+  }
+
+  .mobile-hidden,
+  .navbar .content .dropdown .dropdown-toggle span{
+    display: none;
+  }
+
+  .modal-dialog-centered .modal-body .flex-data,
+  .orders .order-box, 
+  .orders .order-box .content .flex-data{
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    align-content: flex-start !important;
+
+    a, span, .type  {
+      margin: 10px 0px 0px !important;
+    }
+  }
+
+  .card {
+    .card-header {
+      padding: 10px 0px !important;
+  
+      .btn {
+        padding: 10px 10px !important;
+  
+        .title {
+          font-size: 13px !important;
+          text-align: unset !important;
+        }
+      }
+    }
+
+    p {
+      font-size: 13px !important;
     }
   }
 }
