@@ -1,0 +1,123 @@
+@media (max-width: 999px) {
+  .navbar {
+    &.scrolled {
+      .nav-content {
+        height: calc(100vh - 80px) !important;
+        top: 80px !important;
+      }
+    }
+
+    .content {
+      .hamburger {
+        display: block !important;
+      }
+
+      .nav-content {
+        width: 100% !important;
+
+        &.full-width {
+          width: 100% !important;
+        }
+
+        position: absolute;
+        top: 120px;
+        right: -100%;
+        height: calc(100vh - 120px);
+        background-color: var(--light);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        z-index: 999;
+        padding: 20px 0px;
+        transition: all .3s linear;
+
+        &.active-nav {
+          right: 0px !important;
+        }
+
+        .navbar-nav {
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          align-content: flex-start;
+          padding: 0px 15px;
+          margin-bottom: 20px;
+          width: 100%;
+
+          li {
+            width: 100%;
+            padding: 20px 0px;
+            border-bottom: 1px solid #ddd;
+          }
+        }
+
+        .buttons-contain {
+          width: 100%;
+          justify-content: center !important;
+        }
+      }
+    }
+  }
+
+  footer .content .footer-links {
+    flex-wrap: wrap-reverse !important;
+
+    li {
+      margin-top: 15px !important;
+    }
+  }
+
+  .copyrights {
+    padding: 10px 0px;
+
+    .content {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  
+      a {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .how-use .use-list li::before {
+    display: none !important;
+  }
+
+  .how-use .image-content,
+  header .image-content {
+    height: 220px !important;
+  }
+
+  header {
+    padding: 150px 0px 0px !important;
+    
+    .content {
+      padding: 0px !important;
+
+      h1 {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  .heading .title {
+    font-size: 17px !important;
+  }
+
+  .single-project .prodcutDetailsSwiper .swiper-slide {
+    height: 250px !important;
+  }
+
+  .chat-message {
+    .form-control {
+      padding-inline-end: 70px !important;
+      padding-inline-start: 20px !important;
+    }
+
+    .send-btn {
+      left: 0px !important;
+    }
+  }
+}

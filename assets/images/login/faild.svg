@@ -1,0 +1,20 @@
+<svg width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="close-circle 1">
+<path id="Vector" d="M45.4987 83.4154C66.3529 83.4154 83.4154 66.3529 83.4154 45.4987C83.4154 24.6445 66.3529 7.58203 45.4987 7.58203C24.6445 7.58203 7.58203 24.6445 7.58203 45.4987C7.58203 66.3529 24.6445 83.4154 45.4987 83.4154Z" stroke="#F83636" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="rotate" style="transform-origin: center; transform-box: fill-box; animation: spinner 2s linear infinite;" opacity="0.4">
+<path id="Vector_2" opacity="0.4" d="M34.7695 56.2304L56.2304 34.7695" stroke="#F83636" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" opacity="0.4" d="M56.2304 56.2304L34.7695 34.7695" stroke="#F83636" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<style>
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+</svg>
