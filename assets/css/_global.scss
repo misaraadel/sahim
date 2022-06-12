@@ -183,6 +183,41 @@ ul{
   }
 }
 
+.owl-theme .owl-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+
+  .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -40px;
+  }
+
+  .owl-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -40px;
+  }
+
+  button {
+    width: fit-content;
+    height: fit-content;
+    span {
+      color: #0335D8;
+      font-size: 50px;
+    }
+
+    &:hover, &:focus {
+      background: transparent !important;
+    }
+  }
+}
+
 .general-section {
   width: 100%;
   position: relative;

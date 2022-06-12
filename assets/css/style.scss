@@ -96,7 +96,7 @@
 
           a {
             color: #000;
-            font-size: 15px;
+            font-size: 18px;
             font-weight: 700;
             padding: 0px 0px 0px 0px;
             position: relative;
@@ -143,7 +143,7 @@
 
         span {
           color: var(--dark);
-          font-size: 15px;
+          font-size: 18px;
           font-weight: 500;
         }
       }
@@ -175,7 +175,7 @@
 
           span {
             color: #000;
-            font-size: 15px;
+            font-size: 18px;
             font-weight: 500;
 
             &.red {
@@ -203,7 +203,7 @@ header {
 
     .solgan {
       color: var(--secondary-color);
-      font-size: 20px;
+      font-size: 24px;
       line-height: 48px;
       font-weight: 900;
       margin: 0px;
@@ -211,14 +211,14 @@ header {
 
     h1 {
       color: var(--primary-color);
-      font-size: 40px;
+      font-size: 45px;
       font-weight: 900;
       margin: 22px 0px;
       line-height: 53px;
     }
 
     .desc {
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 500;
       line-height: 40px;
       color: var(--dark);
@@ -250,14 +250,14 @@ header {
 
     h1 {
       color: var(--light);
-      font-size: 25px;
+      font-size: 35px;
       font-weight: 900;
       margin-bottom: 20px;
     }
 
     p {
       color: rgba($color: #fff, $alpha: 0.70);
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 500;
       margin-bottom: 20px;
     }
@@ -310,7 +310,7 @@ header {
 
         a {
           color: var(--light);
-          font-size: 15px;
+          font-size: 18px;
           font-weight: 700;
         }
 
@@ -327,6 +327,10 @@ header {
 .projects {
   .heading {
     margin-bottom: 30px !important;
+
+    .desc {
+      font-weight: 900;
+    }
   }
 
   .owl-stage {
@@ -378,7 +382,7 @@ header {
       padding-inline-start: 30px;
       position: relative;
       color: var(--dark);
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 500;
       margin-block-end: 24px;
 
@@ -403,15 +407,7 @@ header {
         top: 0px;
         border-radius: 50%;
         border: 1px dashed var(--primary-color);
-      }
-
-      &::before {
-        width: 1px;
-        height: 90%;
-        background-color: var(--primary-color);
-        top: 100%;
-        right: 10px;
-      }
+      } 
     }
   }
 }
@@ -450,17 +446,16 @@ header {
 
     h2 {
       color: var(--dark);
-      font-size: 25px;
+      font-size: 35px;
       font-weight: 900;
       margin: 20px 0px;
     }
 
     p {
       color: var(--dark);
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 500;
       line-height: 1.8rem;
-      text-align: justify;
       margin: 0px;
     }
 
@@ -491,16 +486,16 @@ header {
 
     h3 {
       color: var(--primary-color);
-      font-size: 25px;
+      font-size: 35px;
       font-weight: 900;
       margin-bottom: 20px;
     }
 
     p {
       color: #000;
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 500;
-      text-align: justify;
+      
       line-height: 1.8rem;
       margin-bottom: 0px;
     }
@@ -510,7 +505,7 @@ header {
         padding-inline-start: 20px;
         position: relative;
         color: var(--dark);
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
         margin-bottom: 20px;
         z-index: 9;
@@ -709,12 +704,12 @@ header {
       background-color: #fff;
       border-radius: 10px;
       color: var(--dark);
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 500;
 
       &::placeholder {
         color: #808080;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
       }
 
@@ -819,7 +814,7 @@ header {
         -webkit-font-smoothing: antialiased;
         font-family: "Font Awesome 5 Free";
         font-weight: 600;
-        font-size: 15px;
+        font-size: 18px;
         transform: scale(0);
         transition: all .4s linear;
         top: 0;
@@ -1000,7 +995,7 @@ header {
 
   h2 {
     color: var(--dark);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     margin: 0px;
   }
@@ -1035,7 +1030,7 @@ header {
 
     p {
       color: var(--primary-color);
-      font-size: 25px;
+      font-size: 35px;
       font-weight: 700;
       margin: 20px 0px;
     }
@@ -1082,7 +1077,7 @@ footer {
 
         a {
           color: var(--light);
-          font-size: 15px;
+          font-size: 18px;
           font-weight: 500;
 
           &:hover {
@@ -1134,7 +1129,7 @@ footer {
 
     p {
       color: var(--dark);
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 500;
       margin: 0px !important;
     }
@@ -1203,7 +1198,7 @@ footer {
 
     h1 {
       color: var(--primary-color);
-      font-size: 25px;
+      font-size: 35px;
       font-weight: 900;
       margin: 20px 0px;
     }
@@ -1218,7 +1213,7 @@ footer {
 
       .link {
         color: var(--dark);
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
 
         span {
@@ -1234,7 +1229,7 @@ footer {
     }
 
     h2 {
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 900;
       color: var(--dark);
       margin: 20px 0px;
@@ -1293,7 +1288,7 @@ footer {
         align-content: center;
 
         h1 {
-          font-size: 25px;
+          font-size: 35px;
           font-weight: 900;
           color: var(--dark);
           margin: 0px 0px 0px 20px;
@@ -1301,7 +1296,7 @@ footer {
 
         span {
           color: var(--primary-color);
-          font-size: 15px;
+          font-size: 18px;
           font-weight: 500
         }
       }
@@ -1313,7 +1308,7 @@ footer {
 
     .type {
       padding: 10px 15px;
-      font-size: 15px;
+      font-size: 18px;
       width: fit-content;
       color: var(--light);
       border-radius: 10px;
@@ -1348,16 +1343,16 @@ footer {
 
     h3 {
       color: var(--primary-color);
-      font-size: 25px;
+      font-size: 35px;
       font-weight: 900;
       margin-bottom: 20px;
     }
 
     p {
       color: #000;
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 500;
-      text-align: justify;
+      
       line-height: 1.8rem;
       margin-bottom: 0px;
     }
@@ -1367,7 +1362,7 @@ footer {
         padding-inline-start: 20px;
         position: relative;
         color: var(--dark);
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
         margin-bottom: 20px;
         z-index: 9;
@@ -1420,7 +1415,7 @@ footer {
         min-width: 200px;
         height: 60px;
         text-align: center;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 700;
         color: var(--primary-color);
 
@@ -1435,7 +1430,7 @@ footer {
       background-color: #fff;
 
       td {
-        font-size: 15px;
+        font-size: 18px;
         min-width: 200px;
         padding: 10px 0px;
         width: 100%;
@@ -1460,7 +1455,7 @@ footer {
 
         .type {
           padding: 10px 15px;
-          font-size: 15px;
+          font-size: 18px;
           width: fit-content;
           color: var(--light);
           border-radius: 10px;
@@ -1527,7 +1522,7 @@ footer {
         align-content: center;
         justify-content: center;
         text-align: center;
-        font-size: 15px;
+        font-size: 18px;
         color: var(--primary);
         transition: all .3s linear;
       }
@@ -1612,7 +1607,7 @@ footer {
 
     p {
       color: var(--dark);
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 500;
       line-height: 1.8rem;
       margin: 20px 0px;
@@ -1623,7 +1618,7 @@ footer {
         padding-inline-start: 20px;
         position: relative;
         color: var(--dark);
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
         margin-bottom: 20px;
         z-index: 9;
@@ -1681,7 +1676,7 @@ footer {
         border-radius: 10px;
         color: var(--primary-color);
         overflow: hidden;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
         transition: border .4s linear;
         
@@ -1725,11 +1720,11 @@ footer {
 
     p {
       color: #808080;
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 500;
       line-height: 1.8rem;
       margin: 0px !important;
-      text-align: justify;
+      
     }
   }
 
@@ -1774,7 +1769,7 @@ footer {
 
     span {
       color: #0335D8;
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 900
     }
 
@@ -1836,16 +1831,16 @@ footer {
 
     h1 {
       color: var(--primary-color);
-      font-size: 25px;
+      font-size: 35px;
       font-weight: 900;
       margin-bottom: 20px;
     }
 
     p {
       color: #000;
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 500;
-      text-align: justify;
+      
       line-height: 1.8rem;
       margin-bottom: 20px;
     }
@@ -1855,7 +1850,7 @@ footer {
         padding-inline-start: 20px;
         position: relative;
         color: #808080;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
         margin-bottom: 20px;
         z-index: 9;
@@ -2029,7 +2024,7 @@ footer {
       background-color: transparent;
       padding: 13px 44px;
       color: #000;
-      font-size: 15px;
+      font-size: 18px;
       line-height: 30px;
       font-weight: 600;
 
@@ -2064,6 +2059,55 @@ footer {
       &:hover{
         color: #0335D8;
       }
+    }
+  }
+}
+
+.whats-app {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border-radius: 50%;
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 993;
+
+  &::after, &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #25d366;
+  }
+
+  &::after {
+    z-index: -1;
+  }
+
+  &::before {
+    animation: pulsecust 4s linear infinite reverse;
+    z-index: -2;
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    position: relative;
+    z-index: 999;
+    filter: invert(99%) sepia(0%) saturate(2%) hue-rotate(95deg) brightness(111%) contrast(100%);
+  }
+
+  &:hover {
+    img {
+      animation: fadeInLeft .4s linear both
     }
   }
 }

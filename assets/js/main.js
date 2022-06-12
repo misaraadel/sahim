@@ -74,7 +74,7 @@ $(document).ready(function () {
         rtl: true,
         loop:true,
         margin: 0,
-        nav:false,
+        nav:true,
         dots: true,
         autoplay: true,
         touchDrag  : true,
