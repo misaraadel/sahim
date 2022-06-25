@@ -2920,6 +2920,10 @@ footer .content .socail-media li a img:hover {
   max-width: 90% !important;
 }
 
+.modal-dialog-centered.project-buttons {
+  max-width: 50% !important;
+}
+
 .modal-dialog-centered .modal-content {
   border: 0px !important;
   border-radius: 20px;
@@ -2928,6 +2932,10 @@ footer .content .socail-media li a img:hover {
 
 .modal-dialog-centered .modal-body {
   padding: 0px !important;
+}
+
+.modal-dialog-centered .modal-body .heading-modal {
+  width: 100% !important;
 }
 
 .modal-dialog-centered .modal-body .image-content {
@@ -4195,6 +4203,25 @@ footer .content .socail-media li a img:hover {
   }
   .heading .title::after {
     width: 40px !important;
+  }
+  .modal-dialog-centered.project-buttons {
+    max-width: unset !important;
+  }
+  .modal-dialog-centered.project-buttons h1 {
+    font-size: 20px !important;
+  }
+  .modal-dialog-centered.project-buttons .buttons-contain {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .modal-dialog-centered.project-buttons .buttons-contain .custom-btn {
+    width: 200px !important;
+    margin: 10px 0px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

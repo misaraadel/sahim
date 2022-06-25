@@ -199,4 +199,22 @@
       width: 40px !important;
     }
   }
+
+  .modal-dialog-centered.project-buttons {
+    max-width: unset !important;
+
+    h1 {
+      font-size: 20px !important;
+    }
+
+    .buttons-contain {
+      flex-direction: column !important;
+      justify-content: center !important;
+
+      .custom-btn {
+        width: 200px !important;
+        margin: 10px 0px !important;
+      }
+    }
+  }
 }

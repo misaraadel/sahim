@@ -1154,6 +1154,10 @@ footer {
     max-width: 90% !important;
   }
 
+  &.project-buttons {
+    max-width: 50% !important;
+  }
+
   .modal-content {
     border: 0px !important;
     border-radius: 20px;
@@ -1162,6 +1166,10 @@ footer {
 
   .modal-body {
     padding: 0px !important;
+
+    .heading-modal {
+      width: 100% !important; 
+    }
 
     .image-content {
       width: 100%;
