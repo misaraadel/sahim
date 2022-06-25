@@ -4159,5 +4159,42 @@ footer .content .socail-media li a img:hover {
   .card p {
     font-size: 13px !important;
   }
+  .owl-carousel .owl-nav .owl-next,
+  .owl-theme .owl-nav .owl-prev {
+    top: unset !important;
+    -webkit-transform: translateY(0px) !important;
+            transform: translateY(0px) !important;
+    bottom: 0px !important;
+  }
+  .owl-carousel .owl-nav button.owl-next {
+    left: calc(50% - 40px);
+  }
+  .owl-theme .owl-nav .owl-prev {
+    right: calc(50% - 40px);
+  }
+  .owl-stage {
+    padding-bottom: 40px !important;
+  }
+  .contact-us .contact-box .box .image-content {
+    width: 70px !important;
+    height: 70px !important;
+    -webkit-margin-end: 10px !important;
+            margin-inline-end: 10px !important;
+  }
+  .contact-us .contact-box .box {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  .contact-us .contact-box .box .content {
+    width: calc(100% - 80px);
+  }
+  .heading .title {
+    -webkit-padding-start: 45px;
+            padding-inline-start: 45px;
+  }
+  .heading .title::after {
+    width: 40px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
